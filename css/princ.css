@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face{
     font-family: 'ComicNew';
-    src: url(css/fonts/ComicNeue-Regular.ttf);
+    src: url("css/fonts/ComicNeue-Regular.ttf");
 }
 @font-face{
     font-family: 'Rancho';
