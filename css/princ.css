@@ -1,11 +1,11 @@
 /* Fonts */
 @font-face{
     font-family: 'ComicNew';
-    src: url('css/fonts/ComicNeue-Regular.ttf');
+    src: url(css/fonts/ComicNeue-Regular.ttf);
 }
 @font-face{
     font-family: 'Rancho';
-    src: url('css/fonts/Rancho-Regular.ttf');
+    src: url(css/fonts/Rancho-Regular.ttf);
 }
 
 /* COLOR-FONT */
