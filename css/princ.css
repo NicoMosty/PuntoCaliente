@@ -1,11 +1,11 @@
 /* Fonts */
 @font-face{
     font-family: 'ComicNew';
-    src: url("css/fonts/ComicNeue-Regular.ttf");
+    src: url("./css/fonts/ComicNeue-Regular.ttf");
 }
 @font-face{
     font-family: 'Rancho';
-    src: url(css/fonts/Rancho-Regular.ttf);
+    src: url("./css/fonts/Rancho-Regular.ttf");
 }
 
 /* COLOR-FONT */
@@ -24,8 +24,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    background-color: burlywood;
-    /* background-image: url('sources/images/background.png'); */
+    background-image: url('./sources/images/background.png');
     background-size: 110%;
     background-attachment: fixed;
 }
