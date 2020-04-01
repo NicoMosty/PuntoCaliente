@@ -254,4 +254,17 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* For smartphones: */
+    .menu{
+        width: 100%;
+    }
+    
+    .menu-menu{
+        padding: 0px;
+    }
+    .menu-menu li {
+        font-size: 19px;
+    }
+    .address, .copyright{
+        font-size: 14px;
+    }
 }
