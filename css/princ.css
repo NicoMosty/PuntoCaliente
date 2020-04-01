@@ -9,7 +9,11 @@
 }
 
 /* COLOR-FONT */
-.new-font{font-family: 'ComicNew',sans-serif;color: #FFEABA;text-decoration: none;}
+.new-font{
+    font-family: 'ComicNew',Arial, Helvetica, sans-serif;
+    color: #FFEABA;
+    text-decoration: none;
+}
 
 /* CHOSEN */
 .chosen{
