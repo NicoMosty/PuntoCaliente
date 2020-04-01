@@ -24,7 +24,8 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    background-image: url('sources/images/background.png');
+    background-color: burlywood;
+    /* background-image: url('sources/images/background.png'); */
     background-size: 110%;
     background-attachment: fixed;
 }
