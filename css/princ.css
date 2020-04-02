@@ -254,6 +254,9 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* For smartphones: */
+    ,menu{
+        display: none;
+    }
     .menu, .main{
         width: 100%;
     }
