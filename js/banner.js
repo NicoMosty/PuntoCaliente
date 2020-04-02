@@ -9,18 +9,14 @@ imag[2].src="sources/images/banner/3.png"
 var i=Math.floor(Math.random()*imag.length);
 var time=5000;
 
-function sum(){
-    i++;
+// Funcion ONLOAD
+document.getElementById("change-banner").src=imag[i].src;
+i++;
+if(i==imag.length){
+    i=0;
 }
+timer=setTimeout(function(){ slide(); },time);
 
-function slide(){
-    document.getElementById("change-banner").src=imag[i].src;
-    i++;
-    if(i==imag.length){
-        i=0;
-    }
-    timer=setTimeout(function(){ slide(); },time);
-}
 
 function next(){
     document.getElementById("change-banner").src=imag[i].src;
