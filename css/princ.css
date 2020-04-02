@@ -204,7 +204,7 @@ body {
         height: 81px;
     }
     .whatsapp-static{
-        top:90%;
+        top:80%;
     }
     .whatsapp-logo-static{
         width: 45%;
@@ -269,5 +269,8 @@ body {
     }
     .address, .copyright{
         font-size: 12px;
+    }
+    .whatsapp-static{
+        top:75%;
     }
 }
