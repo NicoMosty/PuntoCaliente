@@ -10,12 +10,15 @@ var i=Math.floor(Math.random()*imag.length);
 var time=5000;
 
 // Funcion ONLOAD
-document.getElementById("change-banner-1").src=imag[i].src;
-i++;
-if(i==imag.length){
-    i=0;
+function openbanner(){
+    document.getElementById("change-banner-1").src=imag[i].src;
+    i++;
+    if(i==imag.length){
+        i=0;
+    }
+    timer=setTimeout(function(){ openbanner(); },time);
 }
-timer=setTimeout(function(){ slide(); },time);
+
 
 
 function next(){
@@ -26,7 +29,7 @@ function next(){
     }
     console.log(i);
     clearTimeout(timer);
-    timer=setTimeout(function(){ slide(); },time);
+    timer=setTimeout(function(){ openbanner(); },time);
 }
 
 function back(){
@@ -38,5 +41,5 @@ function back(){
     }
     console.log(i);
     clearTimeout(timer);
-    timer=setTimeout(function(){ slide(); },time);
+    timer=setTimeout(function(){ openbanner(); },time);
 }
