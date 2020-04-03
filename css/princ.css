@@ -179,9 +179,6 @@ body {
 }
 @media only screen and (max-width: 1030px) {
     /* For small desktop: */
-    #menu-js{
-        display: block;
-    }
     .break1{
         display: inline;
     }
