@@ -8,3 +8,14 @@ function menuhide(){
         VERIF.style.display = "block";
     }
 }
+
+function cambiotamaño(){
+    var CHECK=window.innerWidth;
+    var VERIF=document.getElementById("menu-js");
+    if(CHECK<900){
+        VERIF.style.display = "none";
+    } 
+    if(CHECK>900){
+        VERIF.style.display = "block";       
+    }
+}

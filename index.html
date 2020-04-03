@@ -9,8 +9,7 @@
         <script src="js/menu.js"></script>
         <link rel="icon" type="image/gif/png" href="sources/images/icon/LOGO.ico">
     </head>
-    <body>
-    <!-- onload="slide('change-banner',imag);" -->
+    <body onresize="cambiotamaño();">
         <div class="head">
             <div class="logo">
                 <a href="index.html">
@@ -63,7 +62,10 @@
                 <img class="button-back" onclick="back('change-banner',imag);" src="sources/images/banner/button/back.png">
                 <img class="button-next" onclick="next('change-banner',imag);" src="sources/images/banner/button/next.png">    
             </div>
-            <img id="change-banner" class="banner"><br>
+            <div  >
+                <img id="change-banner" class="banner"><br>
+            </div>
+                
             <div class="botton-nav2">
                 <img class="button-back2" onclick="back('change-banner',imag);" src="sources/images/banner/button/back.png">
                 <img class="button-next2" onclick="next('change-banner',imag);" src="sources/images/banner/button/next.png">    

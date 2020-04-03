@@ -194,12 +194,6 @@ body {
     .botton-nav2{display: none;}
     .info1{margin-top: 60px;}
 }
-@media only screen and (min-width: 900px) {
-    /* For small desktop: */
-    #menu-js{
-        display: block;
-    }
-}
 @media only screen and (max-width: 770px){
 /* and (min-device-aspect-ratio: 16/9)  */
     For tablets:
@@ -260,14 +254,9 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* For smartphones: */
-    #menu-js{
-        display: none;
-
-    }
     .menu, .main{
         width: 100%;
     }
-    
     .menu-menu{
         padding: 0px;
     }
