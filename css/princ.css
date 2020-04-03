@@ -197,9 +197,6 @@ body {
 @media only screen and (max-width: 770px){
 /* and (min-device-aspect-ratio: 16/9)  */
     /* For tablets: */
-    .menu{
-        display: none;
-    }
     .break-t{
         display: inline;
     }
