@@ -180,6 +180,9 @@ body {
 }
 @media only screen and (max-width: 1030px) {
     /* For small desktop: */
+    #menu-js{
+        display: block;
+    }
     .break1{
         display: inline;
     }
@@ -192,10 +195,14 @@ body {
     .botton-nav2{display: none;}
     .info1{margin-top: 60px;}
 }
-
-@media only screen and (max-width: 770px) 
+@media only screen and (min-width: 900px) {
+    /* For small desktop: */
+    #menu-js{
+        display: block;
+    }
+}
+@media only screen and (max-width: 770px){
 /* and (min-device-aspect-ratio: 16/9)  */
-{
     For tablets:
     .break-t{
         display: inline;
