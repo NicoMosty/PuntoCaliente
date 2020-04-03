@@ -10,7 +10,7 @@ var i=Math.floor(Math.random()*imag.length);
 var time=5000;
 
 // Funcion ONLOAD
-document.getElementById("change-banner").src=imag[i].src;
+document.getElementById("change-banner-1").src=imag[i].src;
 i++;
 if(i==imag.length){
     i=0;
@@ -19,7 +19,7 @@ timer=setTimeout(function(){ slide(); },time);
 
 
 function next(){
-    document.getElementById("change-banner").src=imag[i].src;
+    document.getElementById("change-banner-1").src=imag[i].src;
     i++;
     if(i==imag.length){
         i=0;
@@ -30,7 +30,7 @@ function next(){
 }
 
 function back(){
-    document.getElementById("change-banner").src=imag[i].src;
+    document.getElementById("change-banner-1").src=imag[i].src;
     if(i==0){
         i=imag.length-1;
     } else{
