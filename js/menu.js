@@ -1,12 +1,10 @@
 var i=1;
 
 function menuhide(){
-    var VERIF=document.getElementById("menu-js").style.display;
-    if (VERIF=="block"){
-        document.getElementById("menu-js").style.display = "none";
-        // document.getElementsByClassName("div#main-js.info1").style.marginTop = "100px";
+    var VERIF=document.getElementById("menu-js");
+    if (VERIF.style.display=="block"){
+        VERIF.style.display = "none";
     } else{
-        document.getElementById("menu-js").style.display = "block";
-        // document.getElementsByClassName("div#main-js.info1").style.marginTop = "-100px";    
+        VERIF.style.display = "block";
     }
 }
