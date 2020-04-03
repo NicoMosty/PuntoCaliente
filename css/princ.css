@@ -9,7 +9,7 @@
 }
 
 /* COLOR-FONT */
-.new-font{
+.new-font, .new-font:hover{
     font-family: 'ComicNew',Arial, Helvetica, sans-serif;
     color: #FFEABA;
     text-decoration: none;
@@ -35,7 +35,7 @@ body {
     top: 0px;
     background-color: #7B241C ;
     z-index: 1;
-    height: 90px;
+    height: 82px;
 }
 
 /* LOGO */
@@ -51,7 +51,7 @@ body {
 .logo2 {
     position: relative;
     width:180px ;
-    top: -20px;
+    top: -25px;
 }
 
 /* CONTACT */
@@ -96,7 +96,7 @@ body {
     margin: 0;
     display: block;
     text-align: center;
-    height: 40px;
+    height: 44px;
     position: relative;
     top: 9px;
 }
@@ -207,7 +207,7 @@ body {
         display: inline;
     }
     .menu-menu{
-        height: 81px;
+        height: 100px;
     }
     .whatsapp-static{
         top:80%;
