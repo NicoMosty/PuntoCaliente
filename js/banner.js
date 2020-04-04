@@ -32,7 +32,7 @@ function touch_end_banner(){
     var y_f = event.changedTouches[0].clientY;
     console.log('--------------------');
     console.log('x_f=',x_f,'y_f=',y_f);
-    if ((Math.abs((y_f-y_o)/y_o))<0.2){
+    if ((Math.abs((y_f-y_o)/y_o))<0.4){
         if ((x_f-x_o)<0){
             document.getElementById("change-banner-1").src=imag[i].src;
             i++;
