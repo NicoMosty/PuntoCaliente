@@ -268,4 +268,7 @@ body {
     .whatsapp-static{
         top:65%;
     }
+    .botton-nav{width: 120px;}
+    .button-back{width:45px;}
+    .button-next{width: 50px;}
 }
