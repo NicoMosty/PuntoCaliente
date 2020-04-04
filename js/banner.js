@@ -6,7 +6,7 @@ imag[0].src="sources/images/banner/1.png"
 imag[1].src="sources/images/banner/2.png"
 imag[2].src="sources/images/banner/3.png"
 
-var i=Math.floor(Math.random()*imag.length);
+var i=1;
 var time=5000;
 
 // Funcion ONLOAD
