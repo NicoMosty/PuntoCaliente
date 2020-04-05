@@ -27,6 +27,7 @@ body {
     background-image: url('./sources/images/backgroud.png');
     background-size: 110%;
     background-attachment: fixed;
+    margin-bottom: -100px;
 }
 
 /* Head */
@@ -34,7 +35,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: #7B241C ;
-    z-index: 1;
+    z-index: 100;
     height: 82px;
 }
 
@@ -84,7 +85,6 @@ body {
 
 /* MENU */
 .menu{
-    display: block;
     position: sticky;
     top: 80px;
     margin: 0 auto;
@@ -94,15 +94,14 @@ body {
 }
 .menu-menu{
     margin: 0;
-    display: block;
     text-align: center;
+    height: 0px;
     height: 44px;
     position: relative;
     top: 9px;
 }
 .menu-menu li {
     display: inline; 
-    vertical-align: middle; 
     padding: 9px 20px; 
     margin: 10px 0;
     font-size: 20px;
@@ -232,9 +231,6 @@ body {
     .main{
         margin-top:40px;
     }
-    .main1{
-        margin-top:-20px;
-    }
     .menu-logo{
         display: block;  
         margin: 0 auto;
@@ -250,9 +246,9 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* For smartphones: */
-    .menu{
+    /* .menu{
         display: none;
-    }
+    } */
     .menu, .main{
         width: 100%;
     }
