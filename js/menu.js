@@ -1,7 +1,7 @@
 var trans=100;
 function menuhide(){
     var VERIF=document.getElementById("menu-js");
-    if (VERIF.style.transform=="translateY(0px)" || VERIF.style.transform==""){
+    if (VERIF.style.transform=="translateY(0px)"){
         VERIF.style.transform= "translateY(-"+trans.toString()+"px)";
         VERIF.style.marginBottom="-"+trans.toString()+"px";
         VERIF.style.transition = "1s";

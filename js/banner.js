@@ -17,6 +17,11 @@ function openbanner(){
         i=0;
     }
     timer=setTimeout(function(){ openbanner(); },time);
+
+    // AAAAa
+    
+    var CHECK=window.innerWidth;
+    var VERIF=document.getElementById("menu-js");
 }
 
 // Funcion ONTOUCHMOVE

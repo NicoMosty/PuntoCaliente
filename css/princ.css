@@ -91,6 +91,8 @@ body {
     width: 90%;
     background-color: #580C05;
     z-index: 1;
+    transform: translateY(-100px);
+    margin-bottom: -100px;
 }
 .menu-menu{
     margin: 0;
