@@ -1,0 +1,34 @@
+.glyphicon-circle-arrow-left, .glyphicon-circle-arrow-right{
+    color: #D80202;
+    opacity: 1;
+    position: relative;
+    
+    text-align: center;
+    font-size: 80px;
+}
+.glyphicon-circle-arrow-left{ left: 30%; z-index: 1;}
+.glyphicon-circle-arrow-right{ right: 180%; }
+
+@media only screen and (max-width: 1025px) {
+    /* For smartphones: */
+    .glyphicon-circle-arrow-left, .glyphicon-circle-arrow-right{
+        font-size: 70px;
+    }
+    .glyphicon-circle-arrow-left{ left: 40%; }
+    .glyphicon-circle-arrow-right{ right: 30%; }
+}
+@media only screen and (max-width: 770px) {
+    /* For smartphones: */
+    .glyphicon-circle-arrow-left, .glyphicon-circle-arrow-right{
+        font-size: 70px;
+    }
+    .glyphicon-circle-arrow-right{ right: 5%; }
+}
+@media only screen and (max-width: 600px) {
+    /* For smartphones: */
+    .glyphicon-circle-arrow-left, .glyphicon-circle-arrow-right{
+        font-size: 40px;
+    }
+    .glyphicon-circle-arrow-left{ left: 40%; }
+    .glyphicon-circle-arrow-right{ right: 0%; }
+}

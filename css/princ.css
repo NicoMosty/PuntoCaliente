@@ -61,12 +61,12 @@ body {
     position: absolute;
     left: 0%;
     margin-bottom: 0px;
-    top: 10px;
+    top: 25px;
 }
 .break1 {display: none;}
 .break-t {display: none;}
 .mail-logo, .call-logo{width:28px;}
-.mail-ref, .call-ref{position: relative; top: -10px;}
+.mail-ref, .call-ref{position: relative; }
 .contact-menu li {display: inline;padding: 5px 5px}
 .mail-ref:hover{background-color: #D80202;}
 .call-ref:hover{background-color: #D80202;}
@@ -78,7 +78,7 @@ body {
     right: 0%;
     margin-bottom: 0px;
     float: right;
-    top: 5px;
+    top: 20px;
 }
 .whatsapp, .spotify, .instagram, .twitter{width:40px ;}
 .social-menu li {display: inline; padding: 5px 5px;}
@@ -90,7 +90,7 @@ body {
     margin: 0 auto;
     width: 90%;
     background-color: #580C05;
-    z-index: 1;
+    z-index: 5;
 }
 .menu-menu{
     margin: 0;
@@ -182,7 +182,7 @@ body {
         display: inline;
     }
     .contact-menu{
-        top: -7px;
+        top: 10px;
     }
     .menu-menu li {
         font-size: 20px;
@@ -246,9 +246,12 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* For smartphones: */
-    /* .menu{
-        display: none;
-    } */
+    .logo1{
+        width:90px ;
+    }
+    .logo2 {
+        width:150px ;
+    }
     .menu, .main{
         width: 100%;
     }
@@ -272,4 +275,10 @@ body {
     .botton-nav{width: 120px;}
     .button-back{width:45px;}
     .button-next{width: 50px;}
+}
+
+.glyphicon{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
 }
