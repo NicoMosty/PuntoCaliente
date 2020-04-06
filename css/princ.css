@@ -87,8 +87,8 @@ body {
     width: 90%;
     background-color: #580C05;
     z-index: 5;
-    transform: translateY(0px) !important;
-    margin-bottom: 0px !important;
+    transform: translateY(0px);
+    margin-bottom: 0px;
 }
 .menu{
 }
@@ -239,8 +239,8 @@ body {
         width:150px ;
     }
     .menu{
-        transform: translateY(-100px) !important;
-        margin-bottom: -100px !important;
+        transform: translateY(-100px);
+        margin-bottom: -100px;
     }
     .menu, .main{
         width: 100%;
