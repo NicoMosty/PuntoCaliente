@@ -22,12 +22,10 @@
 
 /* Body */
 body {
-    margin: 0;
     overflow-x: hidden;
     background-image: url('../sources/images/backgroud.png');
     background-size: 110%;
     background-attachment: fixed;
-    margin-bottom: -100px;
 }
 
 /* Head */
@@ -60,7 +58,6 @@ body {
     padding: 0;
     position: absolute;
     left: 0%;
-    margin-bottom: 0px;
     top: 25px;
 }
 .break1 {display: none;}
@@ -76,7 +73,6 @@ body {
     padding: 0;
     position: absolute;
     right: 0%;
-    margin-bottom: 0px;
     float: right;
     top: 20px;
 }
@@ -91,6 +87,10 @@ body {
     width: 90%;
     background-color: #580C05;
     z-index: 5;
+    transform: translateY(0px) !important;
+    margin-bottom: 0px !important;
+}
+.menu{
 }
 .menu-menu{
     margin: 0;
@@ -111,6 +111,13 @@ body {
     display: none;
 }
 
+/* BANNER */
+.glyphicon{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 /* CENTRO */
 .main{
     position: relative;
@@ -118,20 +125,6 @@ body {
     width: 90%;
     background-color: #ffffff;
 }
-
-/* BANNER-INIC */
-.banner{
-    width: 100%;
-    margin-top: -68px;
-    margin-bottom: -72px;
-}
-.botton-nav, .botton-nav2{
-    width: 150px;
-    margin: 0 auto;
-}
-.botton-nav{position: relative; top: 5px;} 
-.botton-nav2{position: relative; top: -5px;}
-
 /* FOOTER */
 .buttom{
     border-top: 10px red;
@@ -163,7 +156,6 @@ body {
     text-align: center;
     width: 70%;
     font-size: 25px;
-    margin-bottom: 0px;
 }
 .whatsapp-static{
     position: fixed;
@@ -187,8 +179,6 @@ body {
     .menu-menu li {
         font-size: 20px;
     }
-    .botton-nav2{display: none;}
-    .info1{margin-top: 60px;}
 }
 @media only screen and (max-width: 770px){
     /* For tablets: */
@@ -212,7 +202,6 @@ body {
         left: 0%;
     }
     .head{
-        margin-bottom: -40px;
         height: 85px;
     }
     .menu-logo{
@@ -227,9 +216,6 @@ body {
     .menu{
         position: sticky;
         top: 85px;
-    }
-    .main{
-        margin-top:40px;
     }
     .menu-logo{
         display: block;  
@@ -252,12 +238,12 @@ body {
     .logo2 {
         width:150px ;
     }
+    .menu{
+        transform: translateY(-100px) !important;
+        margin-bottom: -100px !important;
+    }
     .menu, .main{
         width: 100%;
-    }
-    .menu{
-        transform: translateY(-100px);
-        margin-bottom: -100px;
     }
     .menu-menu{
         padding: 0px;
@@ -275,10 +261,4 @@ body {
     .botton-nav{width: 120px;}
     .button-back{width:45px;}
     .button-next{width: 50px;}
-}
-
-.glyphicon{
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
 }
