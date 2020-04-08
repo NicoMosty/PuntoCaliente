@@ -23,7 +23,7 @@
 /* Body */
 body {
     overflow-x: hidden;
-    background-image: url('../sources/images/backgroud.png');
+    background-image: url('../sources/images/background.png');
     background-size: 110%;
     background-attachment: fixed;
 }
