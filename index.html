@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="icon" type="image/gif/png" href="sources/images/icon/LOGO.ico">
 </head>
-<body onresize="cambiotamaño();">
+<body onload="start_hide()" onresize="cambiotamaño();">
 	<div class="head">
 		<div class="logo">
 			<a href="index.html">
@@ -42,23 +42,24 @@
 			</div>
 		</div>
 	</div>
-		<div id="menu-js" class="menu">
-			<ul class="menu-menu">
-				<li class="menu-index"><a class="new-font" href='sites/panaderia.html'>Panadería</a></li>
-				<li class="menu-index"><a class="new-font" href='sites/pasteleria.html'>Pastelería</a></li>
-				<li class="menu-index"><a class="new-font" href='sites/cafeteria.html'>Cafetería</a></li>
-				<br class="break-t"><br class="break-t">
-				<li class="tablet-menu menu-index"><a class="new-font" href='sites/reposteria.html'>Repostería</a></li>
-				<li class="tablet-menu menu-index"><a class="new-font" href='sites/desayunos.html'>Desayunos</a></li>
-				<li class="tablet-menu menu-index"><a class="new-font" href='sites/varios.html'>Varios</a></li>
-			</ul>
-		</div>
-		<div class="whatsapp-static">
-			<a href="https://api.whatsapp.com/send?phone=573203826846&text=Hola,%20Necesito%20mas%20información." target="_blank">
-				<img class="whatsapp-logo-static" src="sources/images/whatsapp-static.png">
-			</a>
-		</div>
-		<div id="main-js" class="main">
+	<div id="menu-js" class="menu">
+		<ul class="menu-menu">
+			<li class="menu-index"><a class="new-font" href="javascript:menu_index('panaderia-js');">Panadería</a></li>
+			<li class="menu-index"><a class="new-font" href="javascript:menu_index('pasteleria-js');">Pastelería</a></li>
+			<li class="menu-index"><a class="new-font" href="javascript:menu_index('cafeteria-js');">Cafetería</a></li>
+			<br class="break-t"><br class="break-t">
+			<li class="tablet-menu menu-index"><a class="new-font" href="javascript:menu_index('reposteria-js');">Repostería</a></li>
+			<li class="tablet-menu menu-index"><a class="new-font" href="javascript:menu_index('desayunos-js');">Desayunos</a></li>
+			<li class="tablet-menu menu-index"><a class="new-font" href="javascript:menu_index('varios-js');">Varios</a></li>
+		</ul>
+	</div>
+	<div class="whatsapp-static">
+		<a href="https://api.whatsapp.com/send?phone=573203826846&text=Hola,%20Necesito%20mas%20información." target="_blank">
+			<img class="whatsapp-logo-static" src="sources/images/whatsapp-static.png">
+		</a>
+	</div>
+	<div id="main-js" class="main">
+		<div id="index-js">
 			<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
 				<div id="carousel-1" class="carousel slide" data-ride="carousel">
 					<!-- Indicadores -->
@@ -119,17 +120,156 @@
 				</p><br>
 			</div>
 		</div>
-		</div>
-		<div id="buttom-js" class="buttom">
-			<div class="copyright new-font">
-				Copyright © 2020 | <br>Panadería Punto Caliente  |<br>Licencia MIT  |
+		<div id="panaderia-js">
+			<div id="" class="info1">
+				<br>
+				<p class="title">Panadería</p><br>
+				<p class="paragraph">
+					Debido a la actual crisis de salud pública, nuestra atención al cliente 
+					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
+					, y ahora también ofrecemos una opción de pedido 
+					en línea. Los panes pedidos en línea se empaquetarán y estarán 
+					disponibles para recoger entre las 8 a.m. y la 6 p.m.
+				</p><br>
 			</div>
-			<div class="address new-font">
-				Carrera 3ra #03 36<br>Choachì/Cundinamarca
+			<div id="" class="info2">
+				<br>
+				<p class="title">Horario</p><br>
+				<p class="paragraph">
+					Lunes A Domingo<br>
+					<div class="paragraph">
+						6:00AM / 6:00PM
+					</div>
+				</p><br>
+			</div>	
+		</div>
+		<div id="pasteleria-js">
+			<div id="" class="info1">
+				<br>
+				<p class="title">Pastelería</p><br>
+				<p class="paragraph">
+					Debido a la actual crisis de salud pública, nuestra atención al cliente 
+					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
+					, y ahora también ofrecemos una opción de pedido 
+					en línea. Los panes pedidos en línea se empaquetarán y estarán 
+					disponibles para recoger entre las 8 a.m. y la 6 p.m.
+				</p><br>
+			</div>
+			<div id="" class="info2">
+				<br>
+				<p class="title">Horario</p><br>
+				<p class="paragraph">
+					Lunes A Domingo<br>
+					<div class="paragraph">
+						6:00AM / 6:00PM
+					</div>
+				</p><br>
+			</div>	
+		</div>
+		<div id="cafeteria-js">
+			<div id="" class="info1">
+				<br>
+				<p class="title">Cafeteria</p><br>
+				<p class="paragraph">
+					Debido a la actual crisis de salud pública, nuestra atención al cliente 
+					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
+					, y ahora también ofrecemos una opción de pedido 
+					en línea. Los panes pedidos en línea se empaquetarán y estarán 
+					disponibles para recoger entre las 8 a.m. y la 6 p.m.
+				</p><br>
+			</div>
+			<div id="" class="info2">
+				<br>
+				<p class="title">Horario</p><br>
+				<p class="paragraph">
+					Lunes A Domingo<br>
+					<div class="paragraph">
+						6:00AM / 6:00PM
+					</div>
+				</p><br>	
 			</div>
 		</div>
+		<div id="reposteria-js">
+			<div id="" class="info1">
+				<br>
+				<p class="title">Repostería</p><br>
+				<p class="paragraph">
+					Debido a la actual crisis de salud pública, nuestra atención al cliente 
+					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
+					, y ahora también ofrecemos una opción de pedido 
+					en línea. Los panes pedidos en línea se empaquetarán y estarán 
+					disponibles para recoger entre las 8 a.m. y la 6 p.m.
+				</p><br>
+			</div>
+			<div id="" class="info2">
+				<br>
+				<p class="title">Horario</p><br>
+				<p class="paragraph">
+					Lunes A Domingo<br>
+					<div class="paragraph">
+						6:00AM / 6:00PM
+					</div>
+				</p><br>	
+			</div>
+		</div>
+		<div id="desayunos-js">
+			<div id="" class="info1">
+				<br>
+				<p class="title">Desayunos</p><br>
+				<p class="paragraph">
+					Debido a la actual crisis de salud pública, nuestra atención al cliente 
+					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
+					, y ahora también ofrecemos una opción de pedido 
+					en línea. Los panes pedidos en línea se empaquetarán y estarán 
+					disponibles para recoger entre las 8 a.m. y la 6 p.m.
+				</p><br>
+			</div>
+			<div id="" class="info2">
+				<br>
+				<p class="title">Horario</p><br>
+				<p class="paragraph">
+					Lunes A Domingo<br>
+					<div class="paragraph">
+						6:00AM / 6:00PM
+					</div>
+				</p><br>	
+			</div>
+		</div>
+		<div id="varios-js">
+			<div id="" class="info1">
+				<br>
+				<p class="title">Varios</p><br>
+				<p class="paragraph">
+					Debido a la actual crisis de salud pública, nuestra atención al cliente 
+					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
+					, y ahora también ofrecemos una opción de pedido 
+					en línea. Los panes pedidos en línea se empaquetarán y estarán 
+					disponibles para recoger entre las 8 a.m. y la 6 p.m.
+				</p><br>
+			</div>
+			<div id="" class="info2">
+				<br>
+				<p class="title">Horario</p><br>
+				<p class="paragraph">
+					Lunes A Domingo<br>
+					<div class="paragraph">
+						6:00AM / 6:00PM
+					</div>
+				</p><br>
+			</div>	
+		</div>
+	</div>
+	<div id="buttom-js" class="buttom">
+		<div class="copyright new-font">
+			Copyright © 2020 | <br>Panadería Punto Caliente  |<br>Licencia MIT  |
+		</div>
+		<div class="address new-font">
+			Carrera 3ra #03 36<br>Choachì/Cundinamarca<br>
+		</div>
+	</div>
 	<!-- JavaScript for Banner v1.0 -->
 	<script src="js/menu.js"></script>
+	<script src="js/hide.js"></script>
 	<script src="js/banner.js"></script>
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

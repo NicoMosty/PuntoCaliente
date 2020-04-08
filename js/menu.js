@@ -1,7 +1,7 @@
-var trans=100;
-var time=1;
+var trans=document.getElementById("menu-js").offsetHeight;
 var VERIF=document.getElementById("menu-js");
 var CHECK=window.innerWidth;
+var time=1;
 
 function menuhide(){
     if (VERIF.style.transform=="translateY(0px)"){
