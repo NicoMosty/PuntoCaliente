@@ -15,9 +15,9 @@ pasteleria=document.getElementById('pasteleria-js');
 function hide(id){
     OBJECT=document.getElementById(id.toString());
     OBJECT.style.display= "none";
+    OBJECT.className="new-font";
     // OBJECT.style.transform= "translateX(120%) ";
     // OBJECT.style.transition = time.toString()+"s";
-
 }
 function show(id){
     OBJECT=document.getElementById(id.toString());
@@ -25,6 +25,7 @@ function show(id){
     // OBJECT.style.transform= "";
     // OBJECT.style.transition = time.toString()+"s";
 }
+
 function hide_gen(){
     hide('index-js');
     hide('panaderia-js');

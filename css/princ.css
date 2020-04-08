@@ -106,6 +106,10 @@ body {
     margin: 10px 0;
     font-size: 20px;
 }
+.li-menu-index:active{
+    color: #FFEABA !important;
+    text-decoration: none !important;
+}
 .menu-menu li:hover{background-color: #D80202;}
 .menu-logo{
     display: none;
