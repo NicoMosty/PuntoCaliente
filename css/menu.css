@@ -49,5 +49,9 @@
     .food-index{
         margin: 1%;
         width: 47%;
+        height: 100px;
+    }
+    .food-title, .food-price{
+        font-size: 16px;
     }
 }

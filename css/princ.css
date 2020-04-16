@@ -95,7 +95,6 @@ body {
 .menu-menu{
     margin: 0;
     text-align: center;
-    height: 0px;
     height: 44px;
     position: relative;
     top: 9px;
@@ -246,9 +245,10 @@ body {
     }
     .menu-menu{
         padding: 0px;
+        height: 85px;
     }
     .menu-menu li {
-        font-size: 19px;
+        font-size: 16px;
     }
     .address, .copyright{
         font-size: 12px;
