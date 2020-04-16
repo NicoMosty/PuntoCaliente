@@ -1,0 +1,53 @@
+.food-index{
+    display: inline-block;
+    margin: 1%;
+    height: 200px;
+    width: 22.7%;
+    background-size: contain;
+}
+
+.food-image{
+    width: 100%;
+}
+.food-box{
+    position: relative;
+    bottom: 16%;
+    background: linear-gradient(bottom, rgb(123,36,28), rgb(123,36,28,.5));
+    background: -webkit-linear-gradient(bottom, rgb(123,36,28), rgb(123,36,28,.5));
+    background: -moz-linear-gradient(bottom, rgb(123,36,28), rgb(123,36,28,.5));
+    text-align: justify;
+}
+.food-title, .food-price{
+    display: inline-block;
+    font-size: 23px;
+}
+.food-price{
+    float: right;
+}
+
+.title-main{
+    background-color: #7B241C;
+    font-family: 'ComicNew';
+    color: wheat;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.glyphicon-circle-arrow-left.menu-arrow, .glyphicon-circle-arrow-right.menu-arrow{
+    color: #D80202;
+    opacity: 1;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.glyphicon-circle-arrow-left.menu-arrow{ left: 40%; z-index: 1;}
+.glyphicon-circle-arrow-right.menu-arrow{ right: 0%; }
+
+@media only screen and (max-width: 600px) {
+    /* For smartphones: */
+    .food-index{
+        margin: 1%;
+        width: 47%;
+    }
+}

@@ -4,7 +4,7 @@ HEIGHT_index=document.getElementById('index-js').offsetHeight;
 HEIGHT_panaderia=document.getElementById('panaderia-js').offsetHeight;
 HEIGHT_pasteleria=document.getElementById('pasteleria-js').offsetHeight;
 HEIGHT_CAFETERIA=document.getElementById('cafeteria-js').offsetHeight;
-HEIGHT_REPOSTERIA=document.getElementById('reposteria-js').offsetHeight;
+HEIGHT_REPOSTERIA=document.getElementById('frio-js').offsetHeight;
 HEIGHT_DESAYUNOS=document.getElementById('desayunos-js').offsetHeight;
 HEIGHT_VARIOS=document.getElementById('varios-js').offsetHeight;
 
@@ -31,7 +31,7 @@ function hide_gen(){
     hide('panaderia-js');
     hide('pasteleria-js');
     hide('cafeteria-js');
-    hide('reposteria-js');
+    hide('frio-js');
     hide('desayunos-js');
     hide('varios-js');
 }

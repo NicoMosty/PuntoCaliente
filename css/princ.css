@@ -146,13 +146,6 @@ body {
 }
 
 /* INFO */
-.title{
-    font-family: 'ComicNew';
-    color: rgb(255, 0, 0);
-    text-align: center;
-    font-size: 40px;
-    margin: 0px;
-}
 .paragraph{
     font-family: 'ComicNew';
     color: rgb(114, 52, 8);
@@ -162,12 +155,14 @@ body {
     font-size: 25px;
 }
 .whatsapp-static{
+    padding-left: -90ds0px;
     position: fixed;
     top:180px;
     z-index: 3;
+    width:4%;
 }
 .whatsapp-logo-static{
-    width: 25%;
+    width: 100%;
 }
 .ws1{
     top:120px;
