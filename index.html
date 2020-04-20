@@ -134,22 +134,22 @@
 							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
 						</ol>
 						<!-- contenedor de los slide -->
-						<div class="carousel-inner" role="listbox" onclick="location.href='index.html'">
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
 							<!-- #1 -->
 							<div class="item  active">
-								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive" alt="">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
 								<div class="carousel-caption">
 								</div>
 							</div>
 							<!-- #2 -->
 							<div class="item ">
-								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive" alt="">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
 								<div class="carousel-caption">
 								</div>
 							</div>
 							<!-- #3 -->
 							<div class="item">
-								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive" alt="">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
 								<div class="carousel-caption">
 								</div>
 							</div>
@@ -166,14 +166,14 @@
 				<p class="food-box">
 					<span class="food-title">
 						Pan Pequeño
-					</span>
+					</span><br>
 					<span class="food-price">
-						$ 300
+						$ 300 / 4*$1.000
 					</span>
 				</p>
 			</div>
 			<div id="" class="food-index">
-				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+				<div id="banner-js" class="banner banner-food" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
 					<div id="carousel-pan-grande" class="carousel slide" data-ride="carousel">
 						<!-- Indicadores -->
 						<ol class="carousel-indicators" style="display: none;">
@@ -182,22 +182,22 @@
 							<li data-target="#carousel-pan-grande" data-slide-to="2"	></li>
 						</ol>
 						<!-- contenedor de los slide -->
-						<div class="carousel-inner" role="listbox" onclick="location.href='index.html'">
+						<div class="carousel-inner" role="listbox" onclick=""><!--location.href='index.html'-->
 							<!-- #1 -->
 							<div class="item  active">
-								<img src="sources/images/menu/panaderia/pan-grande/1.png" class="img-responsive" alt="">
+								<img src="sources/images/menu/panaderia/pan-grande/1.png" class="img-responsive food-banner" alt="">
 								<div class="carousel-caption">
 								</div>
 							</div>
 							<!-- #2 -->
 							<div class="item ">
-								<img src="sources/images/menu/panaderia/pan-grande/2.png" class="img-responsive" alt="">
+								<img src="sources/images/menu/panaderia/pan-grande/2.png" class="img-responsive food-banner" alt="">
 								<div class="carousel-caption">
 								</div>
 							</div>
 							<!-- #3 -->
 							<div class="item">
-								<img src="sources/images/menu/panaderia/pan-grande/3.png" class="img-responsive" alt="">
+								<img src="sources/images/menu/panaderia/pan-grande/3.png" class="img-responsive food-banner" alt="">
 								<div class="carousel-caption">
 								</div>
 							</div>
@@ -214,7 +214,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Pan Grande
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 3.000
 					</span>
@@ -225,7 +225,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Pan Relleno
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 1.000
 					</span>
@@ -236,7 +236,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Almohabana
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 1.500
 					</span>
@@ -247,7 +247,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Empanada
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 2.000
 					</span>
@@ -258,7 +258,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Croissant
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 2.000
 					</span>
@@ -269,7 +269,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Pastel de pollo
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 2.500
 					</span>
@@ -280,7 +280,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Rosca Resobada
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 500
 					</span>
@@ -291,7 +291,7 @@
 				<p class="food-box">
 					<span class="food-title">
 						Churros
-					</span>
+					</span><br>
 					<span class="food-price">
 						$ 700
 					</span>
@@ -299,95 +299,1038 @@
 			</div>
 		</div>
 		<div id="pasteleria-js">
-			<div id="" class="title-menu">
-				<br>
-				<p class="title">Pastelería</p><br>
-				<p class="paragraph">
-					Debido a la actual crisis de salud pública, nuestra atención al cliente 
-					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
-					, y ahora también ofrecemos una opción de pedido 
-					en línea. Los panes pedidos en línea se empaquetarán y estarán 
-					disponibles para recoger entre las 8 a.m. y la 6 p.m.
-				</p><br>
-			</div>
-			<div id="" class="info2">
-				<br>
-				<p class="title">Horario</p><br>
-				<p class="paragraph">
-					Lunes A Domingo<br>
-					<div class="paragraph">
-						6:00AM / 6:00PM
+			<p class="title-main">Pastelería</p><br>
+
+			<p class="title-second">Postre Personal</p><br>
+
+				<div id="" class="food-index">
+					<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+						<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+							<!-- Indicadores -->
+							<ol class="carousel-indicators" style="display: none;">
+								<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+							</ol>
+							<!-- contenedor de los slide -->
+							<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+								<!-- #1 -->
+								<div class="item  active">
+									<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #2 -->
+								<div class="item ">
+									<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #3 -->
+								<div class="item">
+									<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+							</div>
+							<!-- Controles -->
+							<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+								<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+							</a>
+							<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+								<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+							</a>
+						</div>
 					</div>
-				</p><br>
-			</div>	
+					<p class="food-box">
+						<span class="food-title">
+							Tres Leches
+						</span><br>
+						<span class="food-price">
+							$ 3.000
+						</span>
+					</p>
+				</div>
+
+				<div id="" class="food-index">
+					<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+						<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+							<!-- Indicadores -->
+							<ol class="carousel-indicators" style="display: none;">
+								<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+							</ol>
+							<!-- contenedor de los slide -->
+							<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+								<!-- #1 -->
+								<div class="item  active">
+									<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #2 -->
+								<div class="item ">
+									<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #3 -->
+								<div class="item">
+									<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+							</div>
+							<!-- Controles -->
+							<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+								<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+							</a>
+							<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+								<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+							</a>
+						</div>
+					</div>
+					<p class="food-box">
+						<span class="food-title">
+							Esponjados
+						</span><br>
+						<span class="food-price">
+							$ 3.000
+						</span>
+					</p>
+				</div>
+
+				<div id="" class="food-index">
+					<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+					<p class="food-box">
+						<span class="food-title">
+							Merengones
+						</span><br>
+						<span class="food-price">
+							$ 5.000
+						</span>
+					</p>
+				</div>
+				<div id="" class="food-index">
+					<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+					<p class="food-box">
+						<span class="food-title">
+							Tiramisú
+						</span><br>
+						<span class="food-price">
+							$ 3.500
+						</span>
+					</p>
+				</div>
+				<div id="" class="food-index">
+					<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+					<p class="food-box">
+						<span class="food-title">
+							Brazo de Reina
+						</span><br>
+						<span class="food-price">
+							$ 3.500
+						</span>
+					</p>
+				</div>
+				<div id="" class="food-index">
+					<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+					<p class="food-box">
+						<span class="food-title">
+							MilHojas
+						</span><br>
+						<span class="food-price">
+							$ 3.500
+						</span>
+					</p>
+				</div>
+			<p class="title-second">Pastel Familiar</p><br>
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
+					</div>
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Tres Leches
+					</span>
+				</p>
+			</div>
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
+					</div>
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Milky Way
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-info">
+				<p>
+					6ta: $13.000 | 5ta: $20.000<br>
+					4ta: $30.000 | 3ta: $45.000<br>
+				</p>
+				<hr class="line-div">
+				<p>
+					Para Pasteles Personalizados, Por Favor enviar un mensaje a Whatsapp.
+				</p>
+			</div>
+
+			<p class="title-second">Hojaldres</p><br>
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
+					</div>
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Corazon|Mariposa
+					</span><br>
+					<span class="food-price">
+						$ 2.000
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
+					</div>
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Marranito
+					</span><br>
+					<span class="food-price">
+						$ 1.800
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Pasabocas
+					</span><br>
+					<span class="food-price">
+						$ 1.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Palito de Queso
+					</span><br>
+					<span class="food-price">
+						$ 1.500
+					</span>
+				</p>
+			</div>
+
+			<p class="title-second">Reposteria</p><br>
+
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
+					</div>
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Mantecadas
+					</span><br>
+					<span class="food-price">
+						$ 2.000
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
+					</div>
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Galletas
+					</span><br>
+					<span class="food-price">
+						$ 1.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Brownie
+					</span><br>
+					<span class="food-price">
+						$ 2.000
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Merengue
+					</span><br>
+					<span class="food-price">
+						$ 700
+					</span>
+				</p>
+			</div>
+
 		</div>
 		<div id="cafeteria-js">
-			<div id="" class="title-menu">
-				<br>
-				<p class="title">Cafeteria</p><br>
-				<p class="paragraph">
-					Debido a la actual crisis de salud pública, nuestra atención al cliente 
-					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
-					, y ahora también ofrecemos una opción de pedido 
-					en línea. Los panes pedidos en línea se empaquetarán y estarán 
-					disponibles para recoger entre las 8 a.m. y la 6 p.m.
-				</p><br>
+			<p class="title-main">Bebidas Calientes</p><br>
+
+			<p class="title-second">Cafetería</p><br>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Perico
+					</span><br>
+					<span class="food-price">
+						$ 1.500
+					</span>
+				</p>
 			</div>
-			<div id="" class="info2">
-				<br>
-				<p class="title">Horario</p><br>
-				<p class="paragraph">
-					Lunes A Domingo<br>
-					<div class="paragraph">
-						6:00AM / 6:00PM
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Tinto
+					</span><br>
+					<span class="food-price">
+						$ 1.200
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Café con Leche
+					</span><br>
+					<span class="food-price">
+						$ 1.800
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Espresso
+					</span><br>
+					<span class="food-price">
+						$ 3.000
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Americano
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Mocaccino
+					</span><br>
+					<span class="food-price">
+						$ 4.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Capuccino
+					</span><br>
+					<span class="food-price">
+						$ 4.500
+					</span>
+				</p>
+			</div>
+
+			<p class="title-second">Aromáticas</p><br>
+
+				<div id="" class="food-index">
+					<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+						<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+							<!-- Indicadores -->
+							<ol class="carousel-indicators" style="display: none;">
+								<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+							</ol>
+							<!-- contenedor de los slide -->
+							<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+								<!-- #1 -->
+								<div class="item  active">
+									<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #2 -->
+								<div class="item ">
+									<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #3 -->
+								<div class="item">
+									<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+							</div>
+							<!-- Controles -->
+							<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+								<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+							</a>
+							<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+								<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+							</a>
+						</div>
 					</div>
-				</p><br>	
+				</div>
+
+				<div id="" class="food-index">
+					<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+						<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+							<!-- Indicadores -->
+							<ol class="carousel-indicators" style="display: none;">
+								<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+								<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+							</ol>
+							<!-- contenedor de los slide -->
+							<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+								<!-- #1 -->
+								<div class="item  active">
+									<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #2 -->
+								<div class="item ">
+									<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+								<!-- #3 -->
+								<div class="item">
+									<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+									<div class="carousel-caption">
+									</div>
+								</div>
+							</div>
+							<!-- Controles -->
+							<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+								<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+							</a>
+							<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+								<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+							</a>
+						</div>
+					</div>
+					<p class="food-box">
+					</p>
+				</div>
+
+				<div id="" class="food-info">
+					<p>
+						1 Fruta: $1.700 | 2 Frutas: $2.000<br>
+						Tropical: $2.500<br>
+					</p>
+					<hr class="line-div">
+					<p>
+						FRUTAS:<br>
+						AMARILLA: Papayuela|Piña|Durazno<br>
+						ROJAS: Mora | Fresa
+
+					</p>
+				</div>
+	
+
+			<p class="title-second">Alicorados</p><br>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Leche Con Brandy
+					</span><br>
+					<span class="food-price">
+						$ 4.500
+					</span>
+				</p>
 			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Capuccino y Licor
+					</span><br>
+					<span class="food-price">
+						$ 4.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Carajillo
+					</span><br>
+					<span class="food-price">
+						$ 4.500
+					</span>
+				</p>
+			</div>
+
+			<p class="title-second">Chocolate</p><br>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Milo Caliente
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Chocolate Caliente
+					</span><br>
+					<span class="food-price">
+						$ 3.000
+					</span>
+				</p>
+			</div>
+
+			<p class="title-second">Té</p><br>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Té en Agua
+					</span><br>
+					<span class="food-price">
+						$ 1.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Té en Leche
+					</span><br>
+					<span class="food-price">
+						$ 2.000
+					</span>
+				</p>
+			</div>
+
 		</div>
 		<div id="frio-js">
-			<div id="" class="title-menu">
-				<br>
-				<p class="title">Repostería</p><br>
-				<p class="paragraph">
-					Debido a la actual crisis de salud pública, nuestra atención al cliente 
-					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
-					, y ahora también ofrecemos una opción de pedido 
-					en línea. Los panes pedidos en línea se empaquetarán y estarán 
-					disponibles para recoger entre las 8 a.m. y la 6 p.m.
-				</p><br>
-			</div>
-			<div id="" class="info2">
-				<br>
-				<p class="title">Horario</p><br>
-				<p class="paragraph">
-					Lunes A Domingo<br>
-					<div class="paragraph">
-						6:00AM / 6:00PM
+
+			<p class="title-main">Bebidas Frias</p><br>
+
+			<p class="title-second">Bebidas con Fruta</p><br>
+
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
 					</div>
-				</p><br>	
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Jugos
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
 			</div>
+
+			<div id="" class="food-index">
+				<div id="banner-js" class="banner" ontouchstart="touch_banner.start();" ontouchend="touch_banner.end();">
+					<div id="carousel-tres-leches" class="carousel slide" data-ride="carousel">
+						<!-- Indicadores -->
+						<ol class="carousel-indicators" style="display: none;">
+							<li data-target="#carousel-pan-pequeño" data-slide-to="0"	class="active" ></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="1"	></li>
+							<li data-target="#carousel-pan-pequeño" data-slide-to="2"	></li>
+						</ol>
+						<!-- contenedor de los slide -->
+						<div class="carousel-inner" role="listbox" onclick=""> <!--location.href='index.html'-->
+							<!-- #1 -->
+							<div class="item  active">
+								<img src="sources/images/menu/panaderia/pan-pequeño/1.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #2 -->
+							<div class="item ">
+								<img src="sources/images/menu/panaderia/pan-pequeño/2.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<!-- #3 -->
+							<div class="item">
+								<img src="sources/images/menu/panaderia/pan-pequeño/3.png" class="img-responsive food-banner" alt="">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controles -->
+						<a id="banner" href="#carousel-pan-pequeño" class="left carousel-control" data-slide="prev">
+							<span class="glyphicon glyphicon-circle-arrow-left menu-arrow"></span>
+						</a>
+						<a id="next-banner" href="#carousel-pan-pequeño" class="right carousel-control" data-slide="next">
+							<span class="glyphicon glyphicon-circle-arrow-right menu-arrow"></span>
+						</a>
+					</div>
+				</div>
+				<p class="food-box">
+					<span class="food-title">
+						Granizados
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-info" style="display: flex; justify-content: center;">
+				<p>
+					FRUTAS:<br>
+					Guanábana | Piña | Durazno<br>
+					Maracuyá | Banano | Lulo <br>
+					Fresa | Melón | Mango<br>
+					Papaya | Mora | Limonada
+				</p>
+			</div>
+
+			<p class="title-second">Preparados</p><br>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Masato
+					</span><br>
+					<span class="food-price">
+						$ 2.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Milo Frio
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Avena Fria
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
+			</div>
+
 		</div>
 		<div id="desayunos-js">
-			<div id="" class="title-menu">
-				<br>
-				<p class="title">Desayunos</p><br>
-				<p class="paragraph">
-					Debido a la actual crisis de salud pública, nuestra atención al cliente 
-					está cerrada. Continuamos suministrando pan en la entrada de la Panadería
-					, y ahora también ofrecemos una opción de pedido 
-					en línea. Los panes pedidos en línea se empaquetarán y estarán 
-					disponibles para recoger entre las 8 a.m. y la 6 p.m.
-				</p><br>
+
+			<p class="title-main">Desayunos</p><br>
+
+			<p class="title-second">Huevos</p><br>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Fritos
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
 			</div>
-			<div id="" class="info2">
-				<br>
-				<p class="title">Horario</p><br>
-				<p class="paragraph">
-					Lunes A Domingo<br>
-					<div class="paragraph">
-						6:00AM / 6:00PM
-					</div>
-				</p><br>	
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Rancheros
+					</span><br>
+					<span class="food-price">
+						$ 4.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Pericos
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Revueltos
+					</span><br>
+					<span class="food-price">
+						$ 3.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-info" style="display: flex; justify-content: center;">
+				<p>
+					ADICIONES:<br>
+					* Arroz: $1.500 Adicionales<br> 
+					* Arepa: $1.000 Adicionales <br>
+					* Queso: $1.000 Adicionales          
+				</p>
+			</div>
+
+			<p class="title-second">Preparados</p><br>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Changua
+					</span><br>
+					<span class="food-price">
+						$ 4.500
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Tamal
+					</span><br>
+					<span class="food-price">
+						$ 5.000
+					</span>
+				</p>
+			</div>
+
+			<div id="" class="food-index">
+				<img class="food-image" src="/sources/images/menu/panaderia/pan-relleno.png">
+				<p class="food-box">
+					<span class="food-title">
+						Caldo de Costilla
+					</span><br>
+					<span class="food-price">
+						$ 5.000
+					</span>
+				</p>
+			</div>
+
 			</div>
 		</div>
 		<div id="varios-js">

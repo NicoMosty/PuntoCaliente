@@ -125,6 +125,7 @@ body {
 .main{
     position: relative;
     margin: 0 auto;
+    padding-bottom: 2%;
     width: 90%;
     background-color: #ffffff;
 }
@@ -257,7 +258,7 @@ body {
         font-size: 12px;
     }
     .whatsapp-static{
-        width: 70px;
+        width: 60px;
         top:50%;
     }
     .botton-nav{width: 120px;}

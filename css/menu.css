@@ -1,39 +1,68 @@
 .food-index{
     display: inline-block;
-    margin: 1%;
+    margin: 3% 1%;
     height: 200px;
     width: 22.7%;
     background-size: contain;
 }
-
+.food-banner{border-radius: 20% 20% 0 0;}
 .food-image{
     width: 100%;
+    border-radius: 20% 20% 0 0;
 }
 .food-box{
-    position: relative;
-    bottom: 16%;
-    background: linear-gradient(bottom, rgb(123,36,28), rgb(123,36,28,.5));
-    background: -webkit-linear-gradient(bottom, rgb(123,36,28), rgb(123,36,28,.5));
-    background: -moz-linear-gradient(bottom, rgb(123,36,28), rgb(123,36,28,.5));
-    text-align: justify;
+    background-color: rgb(238, 67, 52);
+    text-align: center;
+    border-radius: 20% 20% ;
 }
 .food-title, .food-price{
     display: inline-block;
     font-size: 23px;
 }
-.food-price{
-    float: right;
+.food-title{
+    width: 100%;
+    background-color: #7B241C;
+    border-radius: 0 0 20% 20%;
 }
 
-.title-main{
-    background-color: #7B241C;
+.title-main, .title-second{
     font-family: 'ComicNew';
     color: wheat;
+    margin: 0;
+    margin-bottom: -20px;
+    text-align: center;
+    font-size: 70px;
+}
+.title-main{
+    background-color: #7B241C;
+}
+.title-second{
+    background-color: none;
+    color: #7B241C;
+    font-size: 40px;
+    border-style: dotted;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+.title{
+    font-family: 'ComicNew';
+    color: red;
     margin: 0;
     text-align: center;
     font-size: 40px;
 }
-
+.food-info{
+    display: inline-block;
+    font-family: 'ComicNew';
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: #7B241C;
+    font-size: 20px;
+}
+.line-div{
+    border-top: 1px dashed #7B241C;
+}
 .glyphicon-circle-arrow-left.menu-arrow, .glyphicon-circle-arrow-right.menu-arrow{
     color: #D80202;
     opacity: 1;
@@ -47,11 +76,21 @@
 @media only screen and (max-width: 600px) {
     /* For smartphones: */
     .food-index{
-        margin: 1%;
+        margin: 3% 1%;
         width: 47%;
         height: 120px;
     }
-    .food-title, .food-price{
-        font-size: 15px;
+    .food-title{
+        font-size: 18px;
+    }
+    .food-price{
+        font-size: 12px;
+    }
+    .title-main{
+        font-size: 40px;
+    }
+    .title-second{
+        margin-top: 10px;
+        font-size: 25px;
     }
 }

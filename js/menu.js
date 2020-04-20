@@ -17,7 +17,7 @@ function menuhide(){
     }
 }
 
-var VERIF1=document.getElementsByClassName("menu");
-function cambiotamaño(){
-    location.reload();
-}
+// var VERIF1=document.getElementsByClassName("menu");
+// function cambiotamaño(){
+//     location.reload();
+// }
