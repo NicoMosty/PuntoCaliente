@@ -1,17 +1,5 @@
 var time=1;
 
-HEIGHT_index=document.getElementById('index-js').offsetHeight;
-HEIGHT_panaderia=document.getElementById('panaderia-js').offsetHeight;
-HEIGHT_pasteleria=document.getElementById('pasteleria-js').offsetHeight;
-HEIGHT_CAFETERIA=document.getElementById('cafeteria-js').offsetHeight;
-HEIGHT_REPOSTERIA=document.getElementById('frio-js').offsetHeight;
-HEIGHT_DESAYUNOS=document.getElementById('desayunos-js').offsetHeight;
-HEIGHT_VARIOS=document.getElementById('varios-js').offsetHeight;
-
-index=document.getElementById('index-js');
-panaderia=document.getElementById('panaderia-js');
-pasteleria=document.getElementById('pasteleria-js');
-
 function hide(id){
     OBJECT=document.getElementById(id.toString());
     OBJECT.style.display= "none";
