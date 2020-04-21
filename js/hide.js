@@ -3,7 +3,6 @@ var time=1;
 function hide(id){
     OBJECT=document.getElementById(id.toString());
     OBJECT.style.display= "none";
-    OBJECT.className="new-font";
 }
 function hide_loader(){
     OBJECT=document.getElementById("loader");

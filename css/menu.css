@@ -18,6 +18,7 @@
 .food-title, .food-price{
     display: inline-block;
     font-size: 23px;
+    color: #FFEABA;
 }
 .food-title{
     width: 100%;
