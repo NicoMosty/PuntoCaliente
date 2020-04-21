@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="icon" type="image/gif/png" href="sources/images/icon/LOGO.ico">
 </head>
-<body onresize="cambiotamaño();">
+<body onload="hide_loader();" onresize="cambiotamaño();">
 	<div class="head">
 		<div class="logo">
 			<a href="index.html">
@@ -1375,4 +1375,7 @@
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
+<div id="loader">
+	<img class="loader-image" src="sources/images/loader.gif" style="opacity: 1 !important;">
+</div>
 </html>

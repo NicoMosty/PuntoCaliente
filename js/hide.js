@@ -5,6 +5,10 @@ function hide(id){
     OBJECT.style.display= "none";
     OBJECT.className="new-font";
 }
+function hide_loader(){
+    OBJECT=document.getElementById("loader");
+    OBJECT.style.display= "none";
+}
 function show(id){
     OBJECT=document.getElementById(id.toString());
     OBJECT.style.display= "block";
